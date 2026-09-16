@@ -1,0 +1,11 @@
+# Reference-only folders (not part of the deployed site)
+base estrutural/
+base visual/
+
+# Local tool/editor config
+.claude/
+.vscode/
+
+# OS cruft
+.DS_Store
+Thumbs.db
