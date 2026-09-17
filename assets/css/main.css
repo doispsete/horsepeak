@@ -748,27 +748,27 @@ footer .small {
   background-color: var(--secondary-color);
 }
 
-#ingredients {
+#formula {
   position: relative;
   background-image: linear-gradient(45deg, var(--primary-color-light), var(--primary-color));
   color: white;
 }
-#ingredients h2 {
+#formula h2 {
   color: white;
 }
-#ingredients h2 span {
+#formula h2 span {
   color: var(--third-color);
 }
-#ingredients .grid {
+#formula .grid {
   grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
   gap: 2em;
 }
 @media (max-width: 599px) {
-  #ingredients .grid {
+  #formula .grid {
     grid-template-columns: 1fr;
   }
 }
-#ingredients .box {
+#formula .box {
   display: flex;
   align-items: flex-end;
   position: relative;
@@ -783,11 +783,11 @@ footer .small {
   color: var(--text-color);
 }
 @media (max-width: 599px) {
-  #ingredients .box {
+  #formula .box {
     min-height: 650px;
   }
 }
-#ingredients .box .overlay {
+#formula .box .overlay {
   position: absolute;
   background-image: linear-gradient(to bottom, transparent, white 60%);
   height: 100%;
@@ -795,13 +795,13 @@ footer .small {
   top: 0;
   left: 0;
 }
-#ingredients .box img {
+#formula .box img {
   overflow: hidden;
 }
-#ingredients .box .content {
+#formula .box .content {
   position: relative;
 }
-#ingredients .box h4 {
+#formula .box h4 {
   font-size: 1.15em;
   color: var(--primary-color);
 }
@@ -1328,10 +1328,10 @@ footer .fda-disclaimer a:hover {
    (both are dark reds), so "60-Day Guarantee" / "Gummy" were nearly
    invisible. Solid background-color also guards against the
    gradient failing to paint before content loads. */
-#guarantee, #ingredients {
+#guarantee, #formula {
   background-color: var(--primary-color);
 }
-#guarantee h2 span, #ingredients h2 span {
+#guarantee h2 span, #formula h2 span {
   color: var(--contrast-color);
 }
 
@@ -1466,7 +1466,7 @@ footer .fda-disclaimer a:hover {
 }
 
 /* Ingredient cards - gradient placeholders (no ingredient photography yet) */
-#ingredients .box {
+#formula .box {
   background-image: none !important;
   min-height: auto;
 }
@@ -1488,7 +1488,7 @@ footer .fda-disclaimer a:hover {
   line-height: 1;
 }
 
-#ingredients .box .icon-circle {
+#formula .box .icon-circle {
   width: 64px;
   height: 64px;
   border-radius: 50%;
@@ -1561,19 +1561,19 @@ footer .fda-disclaimer a:hover {
   padding-bottom: clamp(2.25rem, 5vw + 1rem, 5rem) !important;
 }
 
-/* Ingredients cards are content-height now (icon + 2 lines of copy) -
-   the old fixed min-height (380px desktop / 650px mobile, larger on
-   mobile than desktop) left huge empty white space on phones. */
-#ingredients .box {
+/* Formula benefit cards are content-height now (icon + 2 lines of
+   copy) - the old fixed min-height (380px desktop / 650px mobile,
+   larger on mobile than desktop) left huge empty white space on phones. */
+#formula .box {
   min-height: auto;
   padding-top: 2.25em;
   padding-bottom: 2.25em;
 }
 @media (max-width: 599px) {
-  #ingredients .box {
+  #formula .box {
     min-height: auto !important;
   }
-  #ingredients .grid {
+  #formula .grid {
     gap: 1em;
   }
 }
