@@ -5,7 +5,7 @@ const faqContainer = document.querySelectorAll("#faq");
 const faqItems = [
   {
     question: "What is Horse Peak Gelatin?",
-    answer: "Horse Peak Gelatin is a daily gummy made with natural botanical extracts, designed to support natural vitality and everyday energy in men. See the full ingredient list in the question below."
+    answer: "Horse Peak Gelatin is a daily gummy made with natural botanical extracts, designed to support natural vitality and everyday energy in men."
   },
   {
     question: "How do I take Horse Peak Gelatin?",
@@ -13,7 +13,7 @@ const faqItems = [
   },
   {
     question: "What's inside each gummy?",
-    answer: "Each serving delivers L-Arginine HCl, Tongkat Ali extract, Maca Root extract, Ashwagandha (Withania somnifera) extract, Horny Goat Weed (Epimedium) extract, Beet Root extract and Grape Seed extract. Horse Peak Gelatin is manufactured in the USA with globally sourced ingredients, in an FDA-registered, GMP-certified facility."
+    answer: "Each serving delivers a blend of natural botanical extracts and amino acids. Horse Peak Gelatin is manufactured in the USA with globally sourced ingredients, in an FDA-registered, GMP-certified facility. Full details are listed on the Supplement Facts label above."
   },
   {
     question: "How long until I notice results?",
