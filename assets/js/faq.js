@@ -5,7 +5,7 @@ const faqContainer = document.querySelectorAll("#faq");
 const faqItems = [
   {
     question: "What is Horse Peak Gelatin?",
-    answer: "Horse Peak Gelatin is a daily gummy formulated with L-Arginine, Tongkat Ali, Maca Root, Ashwagandha, Horny Goat Weed, Beet Root and Grape Seed extract, designed to support natural vitality and everyday energy in men."
+    answer: "Horse Peak Gelatin is a daily gummy made with natural botanical extracts, designed to support natural vitality and everyday energy in men. See the full ingredient list in the question below."
   },
   {
     question: "How do I take Horse Peak Gelatin?",
